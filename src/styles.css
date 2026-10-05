@@ -17,7 +17,7 @@
   --font-sans:"Rubik","Heebo","Arial Hebrew",system-ui,sans-serif;
 }
 *,*::before,*::after{box-sizing:border-box}
-body{margin:0;-webkit-font-smoothing:antialiased;background:var(--surface-100);color:var(--ink);font:400 16px/26px var(--font-sans);direction:rtl;overflow-x:clip}
+body{margin:0;-webkit-font-smoothing:antialiased;background:var(--surface-100);color:var(--ink);font:400 16px/26px var(--font-sans);direction:rtl}
 h1,h2,h3{text-wrap:balance;margin:0}
 button{font-family:inherit}
 :focus-visible{outline:2px solid var(--focus);outline-offset:2px}
@@ -47,7 +47,7 @@ button{font-family:inherit}
 
 /* Header */
 .promo-strip{background:var(--accent-lemon);color:var(--ink-on-accent);text-align:center;font:500 13px/18px var(--font-sans);padding:var(--space-2) var(--space-4)}
-.header{position:sticky;top:env(safe-area-inset-top,0px);z-index:20;background:var(--surface-card);border-bottom:1px solid var(--border)}
+.header{position:sticky;top:0;z-index:30;background:var(--surface-card);border-bottom:1px solid var(--border)}
 .header__row{display:flex;align-items:center;gap:var(--space-6);padding-block:var(--space-3)}
 .logo{font:700 30px/1 var(--font-sans);color:var(--brand);text-decoration:none;letter-spacing:-.01em;display:flex;align-items:center;gap:var(--space-2)}
 .logo{direction:ltr;gap:10px}.logo__mark{height:44px;width:auto}.logo__word{height:34px;width:auto}.footer__logo{width:150px;height:auto;display:block}
